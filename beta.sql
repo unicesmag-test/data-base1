@@ -15,9 +15,14 @@ CREATE TABLE users (
     deleted_at TIMESTAMPTZ DEFAULT now()
 );
 
+
 INSERT INTO users (ide_number, firstname, lastname,
 mobile_number, email, password) VALUES ('87067555',
 'Joan','Ayala','3002223366','joan@mail.com','1234');
+
+INSERT INTO users (ide_number, firstname, lastname,
+mobile_number, email, password) VALUES ('87067556',
+'Peter','McCslister','3002223367','peter@mail.com','123456');
 
 
 
